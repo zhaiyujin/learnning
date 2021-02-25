@@ -7,8 +7,8 @@ use Algolia\AlgoliaSearch\SearchClient as Algolia;
 use Algolia\AlgoliaSearch\Support\UserAgent;
 use Exception;
 use Illuminate\Support\Manager;
-use Laravel\Scout\Engines\AlgoliaEngine;
-use Laravel\Scout\Engines\NullEngine;
+use Zhaiyujin\Learning\Engines\AlgoliaEngine;
+use Zhaiyujin\Learning\Engines\NullEngine;
 
 class EngineManager extends Manager
 {
