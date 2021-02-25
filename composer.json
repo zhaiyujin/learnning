@@ -1,0 +1,54 @@
+{
+    "name": "zhaiyujin/learning",
+    "description": "学习",
+     "keywords": ["zhaiyujin", "laravel", "search"],
+    "type": "library",
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/bus": "^6.0|^7.0|^8.0",
+        "illuminate/contracts": "^6.0|^7.0|^8.0",
+        "illuminate/database": "^6.0|^7.0|^8.0",
+        "illuminate/http": "^6.0|^7.0|^8.0",
+        "illuminate/pagination": "^6.0|^7.0|^8.0",
+        "illuminate/queue": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^8.0|^9.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TonicGB",
+            "email": "568941179@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhaiyujin\\Learning\\Tests\\": "tests/"
+        }
+    },
+     "autoload": {
+        "psr-4": {
+            "Zhaiyujin\\Learning\\": "src/"
+        }
+    }, "extra": {
+        "branch-alias": {
+            "dev-master": "8.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Laravel\\Scout\\ScoutServiceProvider"
+            ]
+        }
+    },
+    
+    
+       "prefer-stable": true
+    
+}
